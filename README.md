@@ -1,1 +1,1 @@
-<img src='https://ibb.co/TTcyPnt' />
+![alt text](https://ibb.co/TTcyPnt)
