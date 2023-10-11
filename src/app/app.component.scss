@@ -1,0 +1,141 @@
+@import "./Variables.scss";
+
+.password {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $grey;
+  border-radius: 10px;
+  &__rectangle {
+    transition: 0.3s;
+    width: 100%;
+    height: 10px;
+    background-color: $grey;
+    border: 1px solid white;
+    &__warning {
+      transition: 0.3s;
+      background-color: $red;
+      transition: 0.3s;
+      border: 1px solid white;
+      width: 100%;
+      height: 10px;
+      &:first-of-type {
+        border-bottom-left-radius: 10px;
+      }
+      &:last-of-type {
+        border-bottom-right-radius: 10px;
+      }
+    }
+    &__green {
+      background-color: $green;
+      transition: 0.3s;
+      border: 1px solid white;
+      width: 100%;
+      height: 10px;
+      &:first-of-type {
+        border-bottom-left-radius: 10px;
+      }
+      &:last-of-type {
+        border-bottom-right-radius: 10px;
+      }
+    }
+    &__grey {
+      transition: 0.3s;
+      width: 100%;
+      height: 10px;
+      background-color: $grey;
+      border: 1px solid white;
+      &:last-of-type {
+        border-bottom-right-radius: 10px;
+      }
+    }
+    &__red {
+      background-color: $red;
+      transition: 0.3s;
+      border: 1px solid white;
+      width: 100%;
+      height: 10px;
+      &:first-of-type {
+        border-bottom-left-radius: 10px;
+      }
+      &:last-of-type {
+        border-bottom-right-radius: 10px;
+      }
+    }
+    &__yellow {
+      background-color: $yellow;
+      transition: 0.3s;
+      border: 1px solid white;
+      width: 100%;
+      height: 10px;
+      &:first-of-type {
+        border-bottom-left-radius: 10px;
+      }
+      &:last-of-type {
+        border-bottom-right-radius: 10px;
+      }
+    }
+    &__easy {
+      background-color: $red;
+      border: 1px solid white;
+      width: 100%;
+      height: 10px;
+      &:first-of-type {
+        border-bottom-left-radius: 10px;
+      }
+      &:last-of-type {
+        border-bottom-right-radius: 10px;
+      }
+    }
+    &__easy-grey {
+      transition: 0.3s;
+      background-color: $grey;
+      border: 1px solid white;
+      width: 100%;
+      height: 10px;
+      &:first-of-type {
+        border-bottom-left-radius: 10px;
+      }
+      &:last-of-type {
+        border-bottom-right-radius: 10px;
+      }
+    }
+    &:first-of-type {
+      border-bottom-left-radius: 10px;
+    }
+    &:last-of-type {
+      border-bottom-right-radius: 10px;
+    }
+  }
+  &__input {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid transparent;
+    padding: 0 20px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.rectangle-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.warning {
+  transition: 0.3s;
+  color: $red;
+  &-yellow {
+    color: $yellow;
+    text-shadow: $grey 1px 0 0;
+  }
+  &-green {
+    color: $green;
+    text-shadow: $grey 1px 0 0;
+  }
+  &-grey {
+    color: $grey;
+    text-shadow: $grey 1px 0 0;
+  }
+}
