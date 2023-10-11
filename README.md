@@ -1,1 +1,1 @@
-<image src='https://ibb.co/TTcyPnt'>
+<image src='https://ibb.co/TTcyPnt' alt="project-image">
